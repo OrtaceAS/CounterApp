@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(0, 20, 35);
+    color: white;
+    text-align: center;
+}
+
+h1{
+    font-size: 60px;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, transform 0.2s;
+    width: 200px;
+    height: 100px;
+    font-size: 50px;
+}
+  
+#add {
+    color: white;
+    background-color: #4caf50;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    margin-right: 5px;
+}
+  
+#subtract {
+    color: white;
+    background-color: #f44336;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#clear{
+  background-color: #8a0f06;
+  color: white;
+  margin-left: 5px;
+  
+}
+
+input{
+  margin-top: 40px;
+  width: 120px;
+  height: 100px;
+  font-size: 60px;
+  background-color: rgb(14, 155, 113);
+  margin-bottom: 0px;
+  color: white;
+}
+  
+button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+}
+
+#counter {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(56, 160, 240);
+    font-size: 100px;
+    background-color: white;
+    border-radius: 1rem;
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#setValue{
+  background-color: rgb(14, 155, 113);
+  font-size: 30px;
+  padding: 0;
+  font-size: 16px;
+  margin-top: 0px;
+  color: white;
+  font-size: 30px;
+}
+
+.button {
+  display: flex;
+  align-items: center; /* This centers vertically */
+  justify-content: center; /* This centers horizontally */
+  height: 150px; /* Set a height for the container */
+  padding: 0px;
+  margin-top: 0px;
+
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+      font-size: 3rem;
+    }
+  
+    #counter {
+      font-size: 5rem;
+      margin-bottom: 1px;
+    }
+  
+
+    button {
+      font-size: 3rem;
+      margin-top: 25px;
+    }
+
+    #add{
+      margin-top: 1px;
+    }
+
+    .counterDiv {
+      padding: 0.5rem;
+      margin: 1rem auto;
+    }
+}
